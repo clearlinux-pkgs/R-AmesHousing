@@ -4,20 +4,23 @@
 #
 Name     : R-AmesHousing
 Version  : 0.0.3
-Release  : 11
+Release  : 12
 URL      : https://cran.r-project.org/src/contrib/AmesHousing_0.0.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/AmesHousing_0.0.3.tar.gz
 Summary  : The Ames Iowa Housing Data
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: R-Rcpp
-Requires: R-pillar
-Requires: R-purrr
+Requires: R-glue
+Requires: R-tibble
+Requires: R-tidyselect
 BuildRequires : R-Rcpp
 BuildRequires : R-dplyr
+BuildRequires : R-glue
 BuildRequires : R-pillar
 BuildRequires : R-pkgconfig
 BuildRequires : R-purrr
+BuildRequires : R-tibble
+BuildRequires : R-tidyselect
 BuildRequires : buildreq-R
 
 %description
@@ -31,10 +34,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1556463317
+export SOURCE_DATE_EPOCH=1556482565
 
 %install
-export SOURCE_DATE_EPOCH=1556463317
+export SOURCE_DATE_EPOCH=1556482565
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
