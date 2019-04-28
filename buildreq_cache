@@ -1,3 +1,6 @@
 0.0.3
-R-pkgconfig
+R-Rcpp
 R-dplyr
+R-pillar
+R-pkgconfig
+R-purrr
