@@ -4,7 +4,7 @@
 #
 Name     : R-AmesHousing
 Version  : 0.0.3
-Release  : 16
+Release  : 17
 URL      : https://cran.r-project.org/src/contrib/AmesHousing_0.0.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/AmesHousing_0.0.3.tar.gz
 Summary  : The Ames Iowa Housing Data
@@ -15,6 +15,7 @@ Requires: R-magrittr
 BuildRequires : R-dplyr
 BuildRequires : R-magrittr
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 No detailed description available
@@ -27,10 +28,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569281890
+export SOURCE_DATE_EPOCH=1571795397
 
 %install
-export SOURCE_DATE_EPOCH=1569281890
+export SOURCE_DATE_EPOCH=1571795397
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
