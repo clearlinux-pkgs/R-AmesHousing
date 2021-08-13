@@ -4,7 +4,7 @@
 #
 Name     : R-AmesHousing
 Version  : 0.0.4
-Release  : 30
+Release  : 31
 URL      : https://cran.r-project.org/src/contrib/AmesHousing_0.0.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/AmesHousing_0.0.4.tar.gz
 Summary  : The Ames Iowa Housing Data
